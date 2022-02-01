@@ -10,3 +10,5 @@ class PostAPIView(generics.RetrieveUpdateDestroyAPIView):
 class PostAPIDetailView(generics.ListCreateAPIView):
     queryset = Post.objects.all()
     serializer_class = PostSerializer
+
+#comment
